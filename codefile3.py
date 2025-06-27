@@ -800,7 +800,7 @@ def _render_invalid_certificate(request, course_id, platform_name, configuration
     return render_to_response(cert_path, context)
 
 
-def _render_valid_certificate(request, custom_template=None):
+def _render_valid_certificate(request, context, custom_template=None):
     """
     Renders certificate
     """
