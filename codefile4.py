@@ -38,7 +38,7 @@ log = logging.getLogger(__name__)
 log = logging.getLogger("edx.student")
 
 
-
+# UserInterests view
 class UserInterestsView(APIView):
     #in this class, creating  a POST request handler for user_details model whenever 
     #a user will post their details using the signup form.
